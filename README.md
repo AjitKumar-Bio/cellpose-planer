@@ -16,13 +16,14 @@ So Cellpose-Planer is the **cellpose** models on **planer** framework. We genera
 ## Install
 **pip install cellpose-planer**
 
-Option: *pip install cupy-cuda101* on envidia gpu, install cuda and cupy would get a large acceleration.
+Option: *pip install cupy-cuda12x* on nvidia gpu, install cuda and cupy would get a large acceleration.
 
 # Usage
 ```python
 import cellpose_planer as cellpp
 from skimage.data import coins
 
+# coins image as example
 img = coins()
 x = img.astype(np.float32)/255
 
